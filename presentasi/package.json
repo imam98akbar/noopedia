@@ -35,6 +35,7 @@
     "node": ">=4.2.0"
   },
   "dependencies": {
-    "gulp-update": "0.0.2"
+    "gulp-update": "0.0.2",
+    "lodash.template": "^4.5.0"
   }
 }
