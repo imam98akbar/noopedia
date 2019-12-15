@@ -12,11 +12,24 @@ html {
   -ms-text-size-adjust: 100%; 
   -webkit-text-size-adjust: 100%; 
 }
-.selectedimg{
-    max-width: 250px;
-    display: flex;
-    align-self: flex-end;
+.selected-image {
+          align-self: center !important;
+          max-width: 200px !important;
+        }
 }
+#precision-cooker-hero .selected-image {
+        max-width: 250px;
+        display: flex;
+        align-self: flex-end;
+      }
+.sticky-content {
+    padding-top: 54px !important;
+  }
+@media(max-width: 786px) {
+    .sticky-content {
+      padding-top: 117px !important;
+    }
+  }
 
 .hero-title{
     font-size: 54.7px;
