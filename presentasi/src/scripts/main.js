@@ -6,7 +6,6 @@ var scale = require('bespoke-scale');
 var bullets = require('bespoke-bullets');
 var hash = require('bespoke-hash');
 var prism = require('bespoke-prism');
-var multimedia = require('bespoke-multimedia');
 var extern = require('bespoke-extern');
 
 // Bespoke.js
@@ -17,6 +16,5 @@ bespoke.from({ parent: 'article.deck', slides: 'section' }, [
   bullets('.build, .build-items > *:not(.build-items)'),
   hash(),
   prism(),
-  multimedia(),
   extern(bespoke)
 ]);
